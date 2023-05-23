@@ -1,10 +1,17 @@
+
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  width: 100% !important;
+}
+
+.hero {
+  background-color: #0070f3;
+  width: 100%;
+  height: 300px !important;
 }
 
 .title a {
@@ -89,3 +96,102 @@
     flex-direction: column;
   }
 }
+
+/* Estilos Custom */
+
+.bkgRed {
+  background-color: #FF0000;
+}
+
+.bkgEngage {
+  background-color: #026BFF;
+  padding: 140px 200px;
+  text-align: center;
+}
+
+.descFeature {
+  font-weight: 300;
+  color: #4A4A4A;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.titleFeature {
+  font-family: Gilroy;
+  font-weight: 600;
+}
+
+.heroLanding {
+  padding: 120px 100px;
+}
+
+.br20 {
+  height: 20px;
+}
+
+.br40 {
+  height: 40px;
+}
+
+.bkgSecond {
+  background-color: #FAFAFA;
+  padding: 56px 200px;
+}
+
+.subtitle {
+  font-family: Gilroy;
+  text-align: center;
+  font-weight: 400;
+}
+
+.subtitle span{
+  color: #0070f3;
+  font-weight: 600;
+}
+
+.containerFeature1 {
+  background-color: #FFF;
+}
+
+.containerFeature2 {
+  background-color: #E6F0FF;
+}
+
+.containerFeature3 {
+  background-color: #FAFAFA;
+}
+
+.containerFeature {
+  padding: 100px;
+}
+
+.containerFeatureImage {
+  padding: 100px;
+}
+
+.cintillo {
+  font-family: Gilroy;
+  text-transform: uppercase;
+  color: #0070f3;
+  font-weight: 600;
+}
+
+.line {
+  margin: 5px 0px 20px 0px;
+}
+
+.experienceTitle {
+  font-family: Gilroy;
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.experienceSubtitle {
+  font-family: Gilroy;
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+
